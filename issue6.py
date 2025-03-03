@@ -1,7 +1,7 @@
 # Print correct factorial of the variable "num"
 
 def factorial(n):
-    if n == 2:
+    if n == 1 or n==0:
         return 1
     else:
         return n * factorial(n - 1)
