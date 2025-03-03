@@ -6,7 +6,7 @@ def sum_list(numbers):
         total += num  # Incorrect accumulation
     return total
 
- 
+
 def main():
     numbers = [1, 2, 3, 4, 5]
     result = sum_list(numbers)
