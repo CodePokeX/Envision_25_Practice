@@ -2,7 +2,7 @@
 
 def sort(a, b):
     for i in range(b):
-        for j in range(1, b):
+        for j in range(i+1, b):
             if a[i] > a[j]:
                 temp = a[i]
                 a[i] = a[j]

@@ -4,10 +4,10 @@ def main():
     # Printing all the characters in an array
     z = ['h', 'e', 'l', 'l', 'o', '!']
     
-    new = [""] * 50
+    new = ""
     
     for i in range(6):
-        new[i] = z
+        new += z[i]
     
     for i in range(6):
         print(new[i], end="")
